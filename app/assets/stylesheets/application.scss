@@ -1,0 +1,54 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "materialize/components/color";
+$primary-color: white !default;
+@import "materialize";
+
+
+$primary-text: #2d2d2d;
+$primary-body: #EF2C32;
+
+.navbar a:link {
+  color: $primary-text;
+}
+
+.modal-content {
+  padding: 10 0 0 0 !important;
+}
+
+nav a {
+  color: $primary-text;
+}
+.nav-wrapper i {
+  color: $primary-text;
+}
+
+footer i {
+  color: $primary-body;
+ }
+
+footer a {
+  color: $primary-body;
+ }
+
+ .copy {
+  color: $primary-text !important;
+ }
+
+ .footer {
+  color: $primary-text;
+ }
+
+nav {
+  height: 70px;
+}
+
+.active {
+  background-color:  $primary-body !important;
+}
+
+.blurbs {
+  margin-top: 5vh;
+}
+
+

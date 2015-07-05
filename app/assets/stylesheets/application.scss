@@ -11,9 +11,10 @@ $primary-body: #EF2C32;
 .navbar a:link {
   color: $primary-text;
 }
- a.modal-trigger {
+
+a.modal-trigger {
   color: $primary-text !important;
- }
+}
 
 .modal-content {
   padding: 10 0 0 0 !important;

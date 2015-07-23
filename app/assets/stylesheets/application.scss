@@ -8,8 +8,18 @@ $primary-color: white !default;
 $primary-text: #2d2d2d;
 $primary-body: #EF2C32;
 
+body {
+  padding-top: 70px;
+}
+
 .navbar a:link {
   color: $primary-text;
+}
+
+.navbar-static-top {
+  position: fixed;
+  z-index: 4;
+  top: 0vh;
 }
 
 .img-pad {

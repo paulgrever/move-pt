@@ -12,6 +12,10 @@ body {
   padding-top: 70px;
 }
 
+#schedule {
+  color: $primary-body !important;
+}
+
 .navbar a:link {
   color: $primary-text;
 }

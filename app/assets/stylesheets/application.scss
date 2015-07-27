@@ -37,6 +37,10 @@ a.modal-trigger {
 nav a {
   color: $primary-text;
 }
+
+nav ul a {
+  color: $primary-text;
+}
 .nav-wrapper i {
   color: $primary-text;
 }
@@ -67,6 +71,24 @@ nav {
 
 .blurbs {
   margin-top: 5vh;
+}
+
+.big-logo {
+  width: 70vh;
+}
+
+.bw {
+  padding-top: 7vh;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.bw:hover {
+  -webkit-filter: grayscale(0%);
 }
 
 

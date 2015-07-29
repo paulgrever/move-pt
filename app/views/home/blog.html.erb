@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <h1 class="center-align"> <%= @feed.title  %> </h1>
+  </div>
+  <div class="row center-align">
+    <% @feed.entries.each do |entry|  %>
+      <div>
+        <%= entry.published  %>
+        <%= entry.content  %>
+      </div>
+      <div class="divider"></div>
+    <% end %>
+
+  </div>
+</div>

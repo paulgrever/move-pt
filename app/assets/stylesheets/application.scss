@@ -7,6 +7,7 @@ $primary-color: white !default;
 
 $primary-text: #2d2d2d;
 $primary-body: #EF2C32;
+$back-text: #ffffff;
 
 body {
   padding-top: 70px;
@@ -98,6 +99,17 @@ nav {
 .testimonials, .spacer {
   margin-top: 10vh;
 }
+
+.reder {
+  color: $primary-body;
+}
+.blacker {
+  color: $primary-text;
+}
+.whiter {
+  color: $back-text;
+}
+
 
 
 

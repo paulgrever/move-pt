@@ -3,6 +3,6 @@
     full_width: true,
     height: 500,
     indicators: true,
-    interval: 6000
+    interval: 60000
   });
 });

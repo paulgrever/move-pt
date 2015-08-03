@@ -15,6 +15,7 @@ gem "selenium-webdriver"
 gem 'font-awesome-sass'
 gem "rails_12factor", group: :production
 gem 'feedjira'
+gem "figaro"
 
 
 

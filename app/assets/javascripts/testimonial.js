@@ -1,11 +1,8 @@
-// $( document ).ready(function(){
-//   myInterval;
-//   myInterval2;
-// });
+$( document ).ready(function(){
+  $('#cust1').hover(function(){
+    console.log("hi");
+  })
+});
 
-// var myInterval = setInterval(function () {
-//   $("#testimonial1").fadeToggle(2000);
-// },5000); 
-// var myInterval2 = setInterval(function () {
-//   $("#testimonial2").delay(5000).fadeToggle(2000);
-// },5000); 
+var cust1 = $("#cust1");
+var cust2 = $("#cust2");

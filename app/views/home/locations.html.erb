@@ -1,13 +1,15 @@
 <div class="container">
   <h2 class="center-align">Locations</h2>
   <div class="divider"></div>
-  <div class="row center-align valign-wrapper">  
-    <div class="col s12 m6 l6 valign">
-      <h4>Move-PT:
-      <h5><%= link_to("3700 Havana St #218, Denver, CO 80239", "https://www.google.com/maps/place/3700 Havana St,+Denver,+CO+80239" , target: "_blank") %>
-      </h5>
-      <em>inside of the Crossfit Stapleton</em>
-      <%= image_tag("Crossfit-Stapleton.png", class:"image-responsive") %>  
+  <div class="row center-align">
+    <div class="">  
+      <div class="col s12 m6 l6 spacer">
+        <h4>Move-PT:
+        <h5><%= link_to("3700 Havana St #218, Denver, CO 80239", "https://www.google.com/maps/place/3700 Havana St,+Denver,+CO+80239" , target: "_blank") %>
+        </h5>
+        <em>inside of the Crossfit Stapleton</em>
+        <%= image_tag("Crossfit-Stapleton.png", class:"image-responsive") %> 
+      </div>
     </div>
     <div class="col m6 l6 hide-on-small-only">
       <iframe
@@ -17,7 +19,7 @@
         src= <%="https://www.google.com/maps/embed/v1/place?key=#{ENV['google_map_key']}&q=3700+Havana+St+%23218,+Denver,+CO+80239"%>>
       </iframe>
     </div>
-    <div class="col s12 hide-on-med-and-up">
+    <div class="col s12 hide-on-med-up">
       <iframe
         width="300"
         height="300"

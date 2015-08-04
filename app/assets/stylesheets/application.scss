@@ -23,11 +23,6 @@ $back-text: #ffffff;
   top: 0px;
 }
 
-.navbar-static-top {
-  position: fixed;
-  z-index: 4;
-  top: 0px;
-}
 
 .img-pad {
   margin-top: 2vh;
@@ -113,6 +108,10 @@ nav {
 }
  .pads {
   padding-bottom: 2vh;
+ }
+
+ .spacer {
+  padding-top: 10vh;
  }
 
 

@@ -9,6 +9,9 @@ $primary-text: #2d2d2d;
 $primary-body: #EF2C32;
 $back-text: #ffffff;
 
+.schedule {
+  color: $primary-body !important;
+}
 #schedule {
   color: $primary-body !important;
 }
@@ -112,6 +115,11 @@ nav {
 
  .spacer {
   padding-top: 10vh;
+ }
+
+ .room-to-view {
+  padding-top: 5vh;
+
  }
 
 

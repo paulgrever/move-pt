@@ -14,4 +14,7 @@ class HomeController < ApplicationController
 
   def locations
   end
+
+  def schedule
+  end
 end

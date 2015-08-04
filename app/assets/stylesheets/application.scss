@@ -9,10 +9,6 @@ $primary-text: #2d2d2d;
 $primary-body: #EF2C32;
 $back-text: #ffffff;
 
-body {
-  padding-top: 70px;
-}
-
 #schedule {
   color: $primary-body !important;
 }
@@ -24,7 +20,13 @@ body {
 .navbar-static-top {
   position: fixed;
   z-index: 4;
-  top: 0vh;
+  top: 0px;
+}
+
+.navbar-static-top {
+  position: fixed;
+  z-index: 4;
+  top: 0px;
 }
 
 .img-pad {

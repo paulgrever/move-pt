@@ -11,6 +11,7 @@ $primary-text: #2d2d2d;
 $primary-body: #EF2C32;
 $back-text: #ffffff;
 $blog-text: #bdbdbd;
+$test-text: #9e9e9e;
 
 .schedule {
   color: $primary-body !important;
@@ -126,7 +127,7 @@ nav {
 .reder {
   color: $primary-body;
 }
-.blacker {
+.blacker, .user {
   color: $primary-text;
 }
 .whiter {
@@ -142,9 +143,11 @@ nav {
 
  .room-to-view {
   padding-top: 5vh;
-
  }
 
+ .text-for-test {
+  color: $test-text;
+}
 
 
 

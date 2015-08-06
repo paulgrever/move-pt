@@ -1,8 +1,15 @@
-$( document ).ready(function(){
-  $('#cust1').hover(function(){
-    console.log("hi");
-  })
-});
 
-var cust1 = $("#cust1");
-var cust2 = $("#cust2");
+$(document).ready(function(){
+  $('.your-class').slick({
+    dots: false,
+    infinite: true,
+    speed: 400,
+    autoplay: true, 
+    autoplaySpeed: 5000,
+    slidesToShow: 1,
+    prevArrow: false,
+    nextArrow: false,
+    fade: true,
+    cssEase: 'linear'
+  });
+});

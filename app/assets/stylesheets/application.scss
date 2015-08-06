@@ -1,8 +1,10 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import 'slick';
 @import "materialize/components/color";
 $primary-color: white !default;
 @import "materialize";
+
 
 
 $primary-text: #2d2d2d;
@@ -116,8 +118,9 @@ nav {
   -webkit-filter: grayscale(0%);
 }
 
-.testimonials, .spacer {
+.testimonials {
   margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .reder {

@@ -16,6 +16,7 @@ gem 'font-awesome-sass'
 gem "rails_12factor", group: :production
 gem 'feedjira'
 gem "figaro"
+gem "jquery-slick-rails"
 
 
 

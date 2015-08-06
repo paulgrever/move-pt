@@ -30,6 +30,16 @@ a {
   top: 0px;
 }
 
+.fixed {
+  position: fixed;
+  z-index:4;
+  right: 0;
+  top: 30vh;
+  height: 50vh;
+  width: 25vh; 
+  overflow: scroll;
+}
+
 
 .img-pad {
   margin-top: 2vh;

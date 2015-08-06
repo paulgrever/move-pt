@@ -5,13 +5,21 @@
   </div>
   <div class="row center-align">
     <% @feed.entries.each do |entry|  %>
-      <div>
+      <div class="section scrollspy" id="<%=entry.title  %>">
         <h5><%= entry.title  %> </h5>  
         <p>By: <%= entry.author  %>  </p>
         <p><em>Published: <%= entry.published.strftime("%A, %B %e, %Y at %l:%M %p")%></em> </p>
         <%= entry.content.html_safe  %>
       </div>
     <% end %>
-
   </div>
 </div>
+
+  <div class="col hide-on-small-only m3 l2 fixed">
+    <h5>Recent Posts:</h5>  
+      <ul class="section table-of-contents">
+      <% @feed.entries.each do |entry| %>
+        <li><a href="#<%=entry.title%>"><%=entry.title  %></a></li>
+      <% end %>
+      </ul>
+  </div>

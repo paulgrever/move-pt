@@ -1,14 +1,15 @@
-<div class="container center-align">
+<div class="container">
   <div class="row">
-    <h1 class="center-align"> <%= @feed.title  %> </h1>
+    <h1 class="left-align"> <%= @feed.title  %> </h1>
     <p><%=link_to(@feed.url, @feed.url) %></p>
   </div>
-  <div class="row center-align">
+  <div class="row left-align">
     <% @feed.entries.each do |entry|  %>
       <div class="section scrollspy" id="<%=entry.title  %>">
-        <h5><%= entry.title  %> </h5>  
-        <p>By: <%= entry.author  %>  </p>
-        <p><em>Published: <%= entry.published.strftime("%A, %B %e, %Y at %l:%M %p")%></em> </p>
+        <h5><%= entry.title  %> </h5>
+        <p class="blog-text"><em><%= entry.published.strftime("%B %e, %Y")%></em> </p>
+        <p class="blog-text">By <%= entry.author  %>  </p>
+        
         <%= entry.content.html_safe  %>
       </div>
     <% end %>

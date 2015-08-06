@@ -20,6 +20,10 @@ $back-text: #ffffff;
   color: $primary-text;
 }
 
+a {
+  color: $primary-body;
+}
+
 .navbar-static-top {
   position: fixed;
   z-index: 4;

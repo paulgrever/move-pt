@@ -1,14 +1,16 @@
-<div class="container">
+<div class="container center-align">
   <div class="row">
     <h1 class="center-align"> <%= @feed.title  %> </h1>
+    <p><%=link_to(@feed.url, @feed.url) %></p>
   </div>
   <div class="row center-align">
     <% @feed.entries.each do |entry|  %>
       <div>
-        <%= entry.published  %>
-        <%= entry.content  %>
+        <h5><%= entry.title  %> </h5>  
+        <p>By: <%= entry.author  %>  </p>
+        <p><em>Published: <%= entry.published.strftime("%A, %B %e, %Y at %l:%M %p")%></em> </p>
+        <%= entry.content.html_safe  %>
       </div>
-      <div class="divider"></div>
     <% end %>
 
   </div>

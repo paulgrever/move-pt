@@ -5,7 +5,7 @@ $(document).ready(function(){
     infinite: true,
     speed: 400,
     autoplay: true, 
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     slidesToShow: 1,
     prevArrow: false,
     nextArrow: false,
